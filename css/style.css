@@ -1,0 +1,283 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@400;500;700&display=swap');
+/* google fonts */
+
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* common css */
+
+/* common classes */
+.sectionPadding{
+    padding: 80px 0;
+}
+.sectionhead h2{
+    padding: 10px;
+    font-size: 2.37rem;
+    border-radius: 15px;
+    color: #1A1A40;
+    position: relative;
+    transition: .4s;
+}
+.sectionhead h2:hover{
+    color: #fff;
+}
+.sectionhead h2::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1A1A40;
+    transform-origin: left;
+    z-index: -1;
+    transition: .4s;
+}
+.sectionhead h2:hover::before{
+    border-radius: 50px;
+    height: 110%;
+    width: 105%;
+    top: 0;
+    left: -5px;
+}
+/* common classes */
+
+/* navbar css start */ 
+.logo{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: #1A1A40;
+    transition: .2s all linear;
+}
+.customNavLink{
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #041C32;
+    font-size: .87rem;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: .2s all linear;
+}
+.customNavLink:hover{
+    color: #ffffff;
+    background: #1A1A40;
+}
+/* navbar css end */ 
+
+/* banner part start */
+
+.carousel-item>img{
+    height: 38rem;
+}
+.carousel-item h1{
+    font-size: 3rem;
+}
+.carousel-item p{
+    font-size: 1.125rem;
+}
+.bannerBtn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #fff;
+    color: #1A1A40;
+    border: none;
+    border-radius: 20px;
+    transition: .4s;
+}
+.bannerBtn:hover{
+    color: #fff;
+    background: #1A1A40;
+}
+/* banner part end */
+/* package part start */
+#package{
+    position: relative;
+}
+.customCard{
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 17px 21px 16px 5px rgba(27,27,65,0.67);
+    transform: translateY(0) skewY(3deg) scale(1);
+    transition: .4s all;
+}
+.cardMenu i{
+    padding: 2px;
+    border-radius: 50%;
+    background: #EDECF9;
+    color: #1A1A40;
+    transition: .4s all;
+}
+.price{
+    font-size: 38px;
+    transition: .4s all;
+}
+.customCardTitle{
+    font-size: 36px;
+    transition: .4s all;
+}
+.price, .customCardTitle{
+    color: #1A1A40;
+    transition: .4s all;
+}
+.customCard .cardMenu>li{
+    margin: 5px 0;
+}
+.customCard:hover{
+    background: #1A1A40;
+    transform: translateY(-10px) skewY(0) scale(1.05);
+}
+.customCard:hover .price,
+.customCard:hover .customCardTitle,
+.customCard:hover .cardPara,
+.customCard:hover .cardMenu li{
+    color: #fff;
+}
+.customCard:hover .cardMenu li i{
+    background: #1A1A40;
+    color: #fff;
+}
+.cardBtn{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    background: #1A1A40;
+    border: none;
+    border-radius: 20px;
+    transition: .4s;
+}
+.customCard:hover .cardBtn{
+    background: #fff;
+    color: #1A1A40;
+}
+.hotDeal{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: -10px;
+}
+.hotDeal p{
+    font-size: 12px;
+    width: 75px;
+    border-radius: 20px;
+    padding: 5px 2px;
+    color: #fff;
+    background: #ff3c3c;
+}/* toast */
+.toast{
+    position: absolute;
+    top: 750px;
+    right: 0;
+}
+.toast-body{
+    border-left: 5px solid #1A1A40;
+}
+/* toast */
+/* package part end */
+
+/* FAQ part start */
+.faqImg{
+    width: 100%;
+}
+.accordion-button{
+    padding: 20px;
+    font-size: 24px !important;
+    font-weight: 500;
+}
+.customFAQ{
+    border: 1px solid #1A1A40;
+    border-left: none;
+    border-top: none;
+    box-shadow: 10px 13px 11px  rgba(25,25,67,0.63);
+}
+/* FAQ part end */
+
+/* bonus part : Contact part start */
+#contact{
+    background: url(../images/form.jpg) fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.customFrom{
+    background-image: linear-gradient(to top right, #1A1A40 , #041C32);
+    border-radius: 50px;
+    padding: 25px;
+}
+.form-control{
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 3px solid #fff !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    background: transparent !important;
+}
+.contactBtn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #fff;
+    color: #1A1A40;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #1A1A40;
+}
+/* bonus part : Contact part end */
+
+/* footer part start*/
+.footer{
+    background: #041C32;
+    padding: 100px 0;
+}
+.footer p{
+    color: #EDECF9;
+    font-size: 24px;
+}
+.getAppSection h4{
+    color: #fff;
+    font-size: 24px;
+}
+.getAppSection a{
+    text-decoration: none;
+}
+.getApp{
+    color: #fff;
+    background: #0B0D17;
+    border: 1px solid #EDECF9;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+.getApp i{
+    font-size: 38px;
+}
+/* footer part end */
+/* getting dificulties with the base style of bootstrap */
+.logo:hover{
+    color: #003ea3;
+}
+.customToggler{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    transition: .2s all linear;
+}
+.customToggler:hover{
+    color: #003ea3;
+}
+/* getting dificulties with the base style of css */

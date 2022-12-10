@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site title  -->
+    <title>AngleEyes - Convention Hall</title>
+
+    <!-- site icon -->
+    <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
+
+    <!-- linking stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- linking bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- navbar part start -->
+    <section id="navbar" class="p-2">
+        <nav class="navbar navbar-expand-lg text-center">
+            <div class="container">
+                <a class="logo fs-1" href="#">AngleEyes</a>
+                <button class="customToggler d-lg-none text-center" type="button" data-bs-toggle="collapse" data-bs-target="#customNav">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="customNav">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item my-3">
+                            <a class="customNavLink" href="#">Home</a>
+                        </li>
+                        <li class="nav-item my-3">
+                            <a class="customNavLink" href="aboutUs">About us</a>
+                        </li>
+                        <li class="nav-item my-3">
+                            <a class="customNavLink" href="contact">Contact</a>
+                        </li>
+                        <li class="nav-item my-3">
+                            <a class="customNavLink" href="subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- navbar part end -->
+
+    <!-- banner part start -->
+    <section id="banner">
+        <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#customCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold my-3">Perfect venue for your next event</h1>
+                        <p class="my-5 fw-bold">We have the best venues in the country</p>
+                        <div class="my-5">
+                            <a class="bannerBtn bnrBtnHover fw-bold my-3" href="https://www.harpersbazaar.com/wedding/planning/g5866/wedding-venue-ideas/" target="#">
+                            WATCH VENUES
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold my-3">Make your own design</h1>
+                        <p class="my-5 fw-bold">You can customise the design of the venues and other things.</p>
+                        <div class="my-5">
+                            <a class="bannerBtn fw-bold my-3" href="https://www.ponoko.com/blog/how-to-make/ultimate-wedding-decorations-guide/" target="#">
+                                CUSTOMIZE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold my-3">Provides best service you can ever thought</h1>
+                        <p class="fw-bold my-5">we train our employees to provide the best service ever to our ccustomers </p>
+                        <div class="my-5">
+                            <a class="bannerBtn fw-bold my-3" href="https://www.harpersbazaar.com/wedding/planning/g6965/best-wedding-planners/" target="#">
+                                OUR TEAM
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold my-3">Allow us to serve you</h1>
+                        <p class="my-5 fw-bold">You can contact with us by clicking the button below</p>
+                        <div class="my-5">
+                            <a class="bannerBtn fw-bold my-3" href="https://www.youtube.com/watch?v=WAyn8Sq_u5M" target="#">
+                                CONTACT NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#customCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- banner part end -->
+
+    <!-- package part start -->
+    <section id="package" class="sectionPadding">
+        <div class="container">
+            <div class="sectionhead d-flex justify-content-center text-center align-items-center">
+                <h2 class="fw-bold py-3">
+                    Our Packages
+                </h2>
+            </div>
+            <div class="row py-5 justify-content-center my-5">
+                <div class="col-lg-3 col-sm-6 col-12 customCard p-lg-4  my-4 my-lg-0">
+                    <h3 class="price fw-bold">
+                        300$
+                    </h3>
+                    <h4 class="customCardTitle fw-bold">
+                        Business Fair
+                    </h4>
+                    <p class="cardPara">
+                        For most businesses event like book fair, craft fair.
+                    </p>
+                    <div class="text-start">
+                        <ul class="cardMenu">
+                            <li><i class="fas fa-check"></i> limited space access</li>
+                            <li><i class="fas fa-check"></i> Secuirty facility</li>
+                            <li><i class="fas fa-check"></i> event support</li>
+                            <li><i class="fas fa-check"></i> Decoration design</li>
+                            <li><i class="fas fa-check"></i> Per day bill</li>
+                        </ul>
+                    </div>
+                    <div class="text-center my-4">
+                        <a class="cardBtn fw-bold my-3" href="https://www.youtube.com/watch?v=WAyn8Sq_u5M" target="#">
+                            Choose plan
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6  customCard p-lg-4 my-4 my-lg-0">
+                    <h3 class="price fw-bold">
+                        500$
+                    </h3>
+                    <h4 class="customCardTitle fw-bold">
+                        Business Fair
+                    </h4>
+                    <p class="cardPara">
+                        For most businesses event like book fair, craft fair.
+                    </p>
+                    <div class="text-start">
+                        <ul class="cardMenu">
+                            <li><i class="fas fa-check"></i> Full space access</li>
+                            <li><i class="fas fa-check"></i> Food arrangement</li>
+                            <li><i class="fas fa-check"></i> mangement support</li>
+                            <li><i class="fas fa-check"></i> Decoration design</li>
+                            <li><i class="fas fa-check"></i> Per day bill</li>
+                        </ul>
+                    </div>
+                    <div class="text-center my-4">
+                        <a class="cardBtn fw-bold my-3" href="https://www.youtube.com/watch?v=WAyn8Sq_u5M" target="#">
+                            Choose plan
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 customCard p-lg-4  my-4 my-lg-0">
+                    <h3 class="price fw-bold">
+                        800$
+                    </h3>
+                    <h4 class="customCardTitle fw-bold">
+                        Wedding plus
+                    </h4>
+                    <p class="cardPara">
+                        For most weddings with premium plans
+                    </p>
+                    <div class="text-start">
+                        <ul class="cardMenu">
+                            <li><i class="fas fa-check"></i> Full space access</li>
+                            <li><i class="fas fa-check"></i> Dedicated team</li>
+                            <li><i class="fas fa-check"></i> Buffet food</li>
+                            <li><i class="fas fa-check"></i> premium Decoration</li>
+                            <li><i class="fas fa-check"></i> pay as plan</li>
+                        </ul>
+                    </div>
+                    <div class="text-center my-4">
+                        <a class="cardBtn fw-bold my-3" href="https://www.youtube.com/watch?v=WAyn8Sq_u5M" target="#">
+                            Choose plan
+                        </a>
+                    </div>
+                    <div class="hotDeal text-center">
+                        <p><i class="fas fa-fire"></i> hot deals!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 customCard p-lg-4 my-4 my-lg-0">
+                    <h3 class="price fw-bold">
+                        1200$
+                    </h3>
+                    <h4 class="customCardTitle fw-bold">
+                        Corporate event
+                    </h4>
+                    <p class="cardPara">
+                        For most corporate business events
+                    </p>
+                    <div class="text-start">
+                        <ul class="cardMenu">
+                            <li><i class="fas fa-check"></i> Full space access</li>
+                            <li><i class="fas fa-check"></i> Dedicated team</li>
+                            <li><i class="fas fa-check"></i> Buffet food</li>
+                            <li><i class="fas fa-check"></i> premium Decoration</li>
+                            <li><i class="fas fa-check"></i> pay as plan</li>
+                        </ul>
+                    </div>
+                    <div class="text-center my-4">
+                        <a class="cardBtn fw-bold my-3" href="https://www.youtube.com/watch?v=WAyn8Sq_u5M" target="#">
+                            Choose plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="toast show">
+        <div class="toast-body d-flex align-items-center fw-bold">
+            <button type="button" class="btn-close mx-2" data-bs-dismiss="toast"></button>
+        Get the HOT DEALS in 25% discount!!
+        </div>
+    </div>
+    <!-- package part end -->
+
+    <!-- bonus part : Contact part start -->
+    <div class="container mb-5">
+        <div class="sectionhead d-flex justify-content-center text-center align-items-center">
+            <h2 class="fw-bold py-3">
+                Contact Us
+            </h2>
+        </div>
+    </div>
+    <section id="contact">
+        <form>
+            <div class="container">
+                <div class="customFrom text-center">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Passward">
+                    </div>
+                    <button type="submit" class="contactBtn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- bonus part : Contact part end -->
+
+    <!-- FAQ part start -->
+    <secction id="FAQ" class="sectionPadding">
+        <div class="container">
+            <div class="sectionhead mb-5 d-flex justify-content-center text-center align-items-center">
+                <h2 class="fw-bold py-3">
+                    Frequently Asked Question
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 order-lg-1 order-2">
+                    <div class="accordion mb-5" id="accordionExample">
+                        <div class="customFAQ my-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Are you providing services outside of Chittagong
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Mainly, our head office is placedd in Chittagong. But because of doing great events we are getting offers from the outside of Chittagong. That's why we have created a team that work from other districts.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="customFAQ my-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Will you arrange the food also along with decorations?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We mainly work on decorations and views. If anyone ask to manage the food section, then we do the arrangement of food. But it will cost you nire than our package cost.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="customFAQ my-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can I manually decorate my stuffs by own?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Yes, you can. We have a option to select your own design and placement of stuffs. After selecting the design, we will make that for you in your way
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-lg-2 order-1">
+                    <img class="w-80 faqImg" src="images/people.png" alt="">
+                </div>
+            </div>
+        </div>
+    </secction>
+    <!-- FAQ part end -->
+
+    <!-- footer part start -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6">
+                    <p>
+                        <i class="far fa-copyright"></i> All right reserved to Nafu14
+                    </p>
+                </div>
+                <div class="col-md-6 getAppSection">
+                    <h4 class="fw-bold">
+                        Get the app
+                    </h4>
+                    <a href="https://www.apple.com/itunes/">
+                        <div class="getApp d-flex align-items-center my-3">
+                            <i class="fab fa-apple"></i>
+                            <div class="mx-3">
+                                <h5>Get it on</h5>
+                                <h2>Apple Store</h2>
+                            </div>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars">
+                            <div class="getApp d-flex align-items-center">
+                                <i class="fab fa-google-play"></i>
+                                <div class="mx-3">
+                                    <h5>Get it on</h5>
+                                    <h2>Play Store</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+    
+
+    <!-- scripting bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- scripting fontawesome -->
+    <script src="https://kit.fontawesome.com/ba621dd8b3.js" crossorigin="anonymous"></script>
+</body>
+</html>
